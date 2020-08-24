@@ -1,0 +1,63 @@
+
+<!-- saved from url=(0030)http://poj.org/problem?id=1979 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Content-Language" content="en-US"><title>1979 -- Red and Black</title><link rel="stylesheet" href="./1979 -- Red and Black_files/poj.css" type="text/css"><link rel="shortcut icon" href="http://poj.org/poj.ico"><link rel="icon" href="http://poj.org/poj.gif" type="image/gif"><script src="./1979 -- Red and Black_files/poj.js.下载" language="javascript"></script></head><body lang="en-US" leftmargin="5" link="blue" alink="blue" vlink="blue" onkeydown="KeyDown(event)"><a name="top"></a><table style="BORDER-COLLAPSE: collapse" bordercolor="#ffffff" width="100%" border="1"><tbody><tr><td align="CENTER" colspan="5"><table class="h1" cellpadding="0"><tbody><tr><td width="25%" align="left"><img src="./1979 -- Red and Black_files/logo1.jpg" height="100" border="0"></td><td colspan="3" bgcolor="#EAEFFD"><table class="h2"><tbody><tr><td><img border="0" src="./1979 -- Red and Black_files/logo0.gif" width="450" height="90"></td><td width="95"><img border="0" src="./1979 -- Red and Black_files/logo3.gif" width="95" height="95"></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr valign="top" align="CENTER" bgcolor="#6589d1"><th class="h">Online Judge</th><th class="h">Problem Set</th><th class="h">Authors</th><th class="h">Online Contests</th><th class="h">User</th></tr><tr valign="top" align="CENTER" bgcolor="#f1f1fd"><td class="h" onmouseover="scbg(this, 1)" onmouseout="scbg(this, 0)"><a href="http://poj.org/bbs">Web Board</a><br><a href="http://poj.org/">Home Page</a><br><a href="http://poj.org/page?id=1000" target="_blank">F.A.Qs</a><br><a href="http://poj.org/chart">Statistical Charts</a></td><td class="h" onmouseover="scbg(this, 1)" onmouseout="scbg(this, 0)"><form action="http://poj.org/gotoproblem" method="get"><a href="http://poj.org/problemlist">Problems</a><br><a href="http://poj.org/submit">Submit Problem</a><br><a href="http://poj.org/status">Online Status</a><br><font color="blue">Prob.ID:</font><input type="text" name="pid" size="6"><input type="Submit" value="Go" name="pb1"></form></td><td class="h" onmouseover="scbg(this,1)" onmouseout="scbg(this,0)" style="background-color: rgb(241, 241, 253);"><form method="GET" action="http://poj.org/searchuser"><a href="http://poj.org/register">Register</a><br><a href="http://poj.org/modifyuser">Update your info</a><br><a href="http://poj.org/userlist">Authors ranklist</a><br><input type="text" name="key" size="10"><input type="Submit" value="Search" name="B1"></form></td>
+<td class="h" onmouseover="scbg(this,1)" onmouseout="scbg(this,0)"><font color="#1a5cc8">Current Contest</font><br><a href="http://poj.org/pastcontests">Past Contests</a><br><a href="http://poj.org/contests">Scheduled Contests</a><br><a href="http://poj.org/challenge.html" target="_blank"><font color="red">Award Contest</font></a></td><td align="left" class="h" onmouseover="scbg(this,1)" onmouseout="scbg(this,0)"><form method="POST" action="http://poj.org/login"><table><tbody><tr><td>User ID:</td><td><input type="text" name="user_id1" size="10" style="font-family:monospace"></td></tr><tr><td>Password:</td><td><input type="password" name="password1" size="10" style="font-family:monospace"></td></tr></tbody></table><input type="Submit" value="login" name="B1">&nbsp;&nbsp;<a href="http://poj.org/register" target="_parent">Register</a><input type="hidden" name="url" value="%2Fproblem%3Fid%3D1979"></form></td></tr></tbody></table><table border="0" width="100%" background="./1979 -- Red and Black_files/table_back.jpg"><tbody><tr><td>
+<div style="position: absolute; right: 10px;">Language:<select size="1" onchange="window.location.href=&#39;problem?id=1979&amp;lang=&#39;+this.value+&#39;&amp;change=true&#39;"><option value="default" selected="">Default</option><option value="es">Español</option></select></div><div class="ptt" lang="en-US">Red and Black</div>
+<div class="plm"><table align="center"><tbody><tr><td><b>Time Limit:</b> 1000MS</td><td width="10px"></td><td><b>Memory Limit:</b> 30000K</td></tr><tr><td><b>Total Submissions:</b> 57985</td><td width="10px"></td><td><b>Accepted:</b> 30422</td></tr></tbody></table></div><p class="pst">Description</p><div class="ptx" lang="en-US">There is a rectangular room, covered with square tiles. Each tile is colored either red or black. A man is standing on a black tile. From a tile, he can move to one of four adjacent tiles. But he can't move on red tiles, he can move only on black tiles. 
+<br>
+<br>Write a program to count the number of black tiles which he can reach by repeating the moves described above. 
+<br></div><p class="pst">Input</p><div class="ptx" lang="en-US">The input consists of multiple data sets. A data set starts with a line containing two positive integers W and H; W and H are the numbers of tiles in the x- and y- directions, respectively. W and H are not more than 20. 
+<br>
+<br>There are H more lines in the data set, each of which includes W characters. Each character represents the color of a tile as follows. 
+<br>
+<br>'.' - a black tile 
+<br>'#' - a red tile 
+<br>'@' - a man on a black tile(appears exactly once in a data set) 
+<br>The end of the input is indicated by a line consisting of two zeros. 
+<br></div><p class="pst">Output</p><div class="ptx" lang="en-US">For each data set, your program should output a line which contains the number of tiles he can reach from the initial tile (including itself). </div><p class="pst">Sample Input</p><pre class="sio">6 9
+....#.
+.....#
+......
+......
+......
+......
+......
+#@...#
+.#..#.
+11 9
+.#.........
+.#.#######.
+.#.#.....#.
+.#.#.###.#.
+.#.#..@#.#.
+.#.#####.#.
+.#.......#.
+.#########.
+...........
+11 6
+..#..#..#..
+..#..#..#..
+..#..#..###
+..#..#..#@.
+..#..#..#..
+..#..#..#..
+7 7
+..#.#..
+..#.#..
+###.###
+...@...
+###.###
+..#.#..
+..#.#..
+0 0</pre><p class="pst">Sample Output</p><pre class="sio">45
+59
+6
+13
+</pre><p class="pst">Source</p><div class="ptx" lang="en-US"><a href="http://poj.org/searchproblem?field=source&amp;key=Japan+2004+Domestic">Japan 2004 Domestic</a></div></td></tr></tbody></table>
+<font color="#333399" size="3"></font><p align="center"><font color="#333399" size="3">
+[<a href="http://poj.org/submit?problem_id=1979">Submit</a>]&nbsp;&nbsp;
+ [<a href="javascript:history.go(-1)">Go Back</a>]&nbsp;&nbsp; [<a href="http://poj.org/problemstatus?problem_id=1979">Status</a>]&nbsp;&nbsp; 
+[<a href="http://poj.org/bbs?problem_id=1979">Discuss</a>]
+</font></p>
+<p><img height="30" src="./1979 -- Red and Black_files/home.gif" width="40" border="0"><font size="3"><a href="http://poj.org/">Home Page</a> </font>&nbsp;&nbsp;<img height="30" src="./1979 -- Red and Black_files/goback.gif" width="40" border="0"><font size="3"><a href="javascript:history.go(-1)">Go Back</a>&nbsp;&nbsp;<img height="30" width="40" border="0" src="./1979 -- Red and Black_files/top.gif"><a href="http://poj.org/problem?id=1979#top">To top</a></font><br></p><hr><p align="center" style="font-family:Arial, Helvetica, sans-serif">All Rights Reserved 2003-2013 Ying Fuchen,Xu Pengcheng,Xie Di<br>Any problem, Please <a href="mailto:webmaster@poj.org">Contact Administrator</a></p><script type="text/javascript" src="./1979 -- Red and Black_files/stats" charset="UTF-8"></script>
+</body></html>
