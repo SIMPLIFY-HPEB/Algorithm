@@ -1,7 +1,5 @@
 /*Curling 2.0*/
 #include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
 
 int dfs(int x, int y, int step);
 
