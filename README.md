@@ -1,2 +1,2 @@
 # Algorithm
-Algorithm collection
+Algorithm collection from AOJ，POJ and Virtual Judge.
