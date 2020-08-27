@@ -1,0 +1,4 @@
+D:\Projects\C Programs\Primary\POJ_1979\x64\Debug\POJ_1979.exe
+D:\Projects\C Programs\Primary\POJ_1979\x64\Debug\POJ_1979.pdb
+D:\Projects\C Programs\Algorithm\Primary\POJ_1979\x64\Debug\POJ_1979.exe
+D:\Projects\C Programs\Algorithm\Primary\POJ_1979\x64\Debug\POJ_1979.pdb

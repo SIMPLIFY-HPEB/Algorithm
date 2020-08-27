@@ -1,0 +1,3 @@
+﻿  solution.c
+D:\Projects\C Programs\Algorithm\Primary\POJ_1979\solution.c(20,30): warning C4020: “dfs”: 实参太多
+  test.vcxproj -> D:\Projects\C Programs\Algorithm\Primary\POJ_1979\x64\Debug\POJ_1979.exe

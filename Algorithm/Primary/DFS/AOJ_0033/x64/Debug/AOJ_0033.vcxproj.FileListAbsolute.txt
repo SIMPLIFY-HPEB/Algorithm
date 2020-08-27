@@ -1,0 +1,2 @@
+D:\Projects\C Programs\Algorithm\Primary\DFS\AOJ_0033\x64\Debug\AOJ_0033.exe
+D:\Projects\C Programs\Algorithm\Primary\DFS\AOJ_0033\x64\Debug\AOJ_0033.pdb

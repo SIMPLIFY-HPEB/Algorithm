@@ -1,0 +1,547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0061)http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033 -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="win chrome chrome8 webkit webkit5 wf-ptsansnarrow-n4-active wf-droidsans-n4-active wf-droidserif-n4-active wf-cousine-n4-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script async="" src="./description_files/aizu_oj.json"></script>
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+
+
+<link rel="stylesheet" href="./description_files/frame.css" type="text/css" media="all">
+<link rel="stylesheet" href="./description_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="./description_files/sp.css" type="text/css" media="all">
+<link rel="stylesheet" href="./description_files/login.css" type="text/css" media="all">
+<link rel="shortcut icon" href="http://judge.u-aizu.ac.jp/aoj_favicon.ico">
+<!--<link rel="icon" href="favicon.ico">-->
+<!--<script src="http://www.google.com/jsapi"></script>-->
+<script type="text/javascript" async="" src="./description_files/ga.js.下载"></script><script language="JavaScript" type="text/javascript" src="./description_files/google_jsapi.js.下载"></script>
+<script>
+google.load("chrome-frame", "1.0.2");
+google.load("jquery", "1.5.1");
+google.load("jqueryui", "1.8.10");
+google.load("webfont", "1.0.19");
+google.setOnLoadCallback(function(){WebFont.load({google: {families: ['PT Sans Narrow','Droid Sans','Droid Serif','Cousine']}});});</script><script src="./description_files/CFInstall.min.js.下载" type="text/javascript"></script><script src="./description_files/jquery.min.js.下载" type="text/javascript"></script><script src="./description_files/jquery-ui.min.js.下载" type="text/javascript"></script><script src="./description_files/webfont.js.下载" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript" src="./description_files/jquery.browser.js.下载"></script>
+<script language="JavaScript" type="text/javascript" src="./description_files/jquery.cookie.js.下载"></script>
+<script language="JavaScript" type="text/javascript" src="./description_files/script.js.下载"></script>
+<script language="JavaScript" type="text/javascript" src="./description_files/login.js.下载"></script>
+<script language="JavaScript" type="text/javascript" src="./description_files/varmath2017.js.下载" charset="UTF-8"></script>
+<!-- icon -->
+<!-- <link rel="shortcut icon" href="http://" />ã-->
+
+<link rel="stylesheet" href="./description_files/jquery-ui-1.8.6.custom.css" type="text/css">
+<link rel="stylesheet" href="./description_files/rose.css" type="text/css">
+<link rel="stylesheet" href="./description_files/description.css" type="text/css">
+<script language="JavaScript" type="text/javascript" src="./description_files/analytics.js.下载"></script>
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><link rel="stylesheet" href="./description_files/css"><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+<body id="niceBody" class="goodStyle"><div id="MathJax_Message" style="display: none;"></div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(function(){
+    $('#tree #treeProblem .trigger2').each(function(i) {
+        $(this).hover(
+            function(){
+                var menuPos = $(this).position();
+                var w = 173 + $(this).width();
+                var tl = menuPos.top + 40;
+                var targetSubTree = i+1;
+                $('#nav #subtree').attr('data-target', 0).css({'margin': '' + tl + 'px 0px 0px ' + w + 'px'}).show();
+                $('#nav #subtree .dat').hide();
+                $('#nav #subtree .dat:nth-child('+targetSubTree+')').show();
+                $(this).addClass('active');
+            },
+            function(){
+                $(this).removeClass('active');
+                $('#nav #subtree').hide();
+            }
+        );
+    });
+    $('#nav #subtree').hover(
+            function() {
+                //var targetTrigger = 2 * $('#nav #tree').attr('data-target') + 1; // 2n+1
+                $(this).show();
+                $('#nav #tree').show();
+                //$('#nav #menu a:nth-child('+targetTrigger+')').addClass('active');
+            },
+            function(){
+                $(this).hide();
+                //$('#nav #menu .trigger').removeClass('active');
+            }
+    );
+    $('#menu .trigger').hover(
+            function(){
+                 $('#nav #subtree').hide();
+            }
+    );
+
+    $.ajax({
+        type:'get',
+        url: 'https://judgeapi.u-aizu.ac.jp/self',
+        xhrFields: {
+          withCredentials: true
+        },
+        success : function(data) {
+            $('#login_new').hide();
+            $('#logout_new').show();
+	    $('#mystatus').html('<a href="user.jsp?id=' + data.id + '" id="status">My Status</a>');
+            if (document.getElementById("submit_language") != null ) {
+              $('#submit_language').val(data.defaultProgrammingLanguage);
+            }
+        },
+        error : function(data) {
+            $('#login_new').show();
+            $('#logout_new').hide();
+        }
+    });
+});
+</script>
+
+	<div id="logo" style="left: 106px;"><a href="http://judge.u-aizu.ac.jp/onlinejudge/index.jsp" id="home">AIZU ONLINE JUDGE</a></div>
+	<div id="nav">
+		<div class="wrapper">
+			<div id="menu">
+				<a href="javascript:void(0)" class="link" id="menuPagetop">PAGETOP</a>
+				<div class="split">&nbsp;</div>
+				<a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#" class="link trigger" id="menuProblem">PROBLEM</a>
+				<div class="split">&nbsp;</div>
+				<a href="http://judge.u-aizu.ac.jp/onlinejudge/ranking.jsp?criteria=0" class="link trigger" id="menuRank">RANKING</a>
+				<div class="split">&nbsp;</div>
+				<!--<a href="status.jsp" class="link trigger" id="menuStatus">STATUS</a>-->
+				<a href="http://judge.u-aizu.ac.jp/onlinejudge/submission.jsp" class="link trigger" id="menuStatus">STATUS</a>
+				<div class="split">&nbsp;</div>
+				<a href="https://onlinejudge.u-aizu.ac.jp/beta/arena.html" class="link trigger" id="menuContest">CONTEST</a>
+				<div class="split">&nbsp;</div>
+				<a href="https://onlinejudge.u-aizu.ac.jp/courses/list" class="link trigger" id="menuCourse">COURSE</a>
+				<div class="split">&nbsp;</div>
+
+
+				<span class="spacer1">&nbsp;</span>
+			</div>
+			<div id="tree" data-target="3" style="margin: 40px 0px 0px 346.234px; display: none;">
+				<div class="dat" id="treeProblem" style="display: none;">
+					<a class="link trigger2" href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#"><span class="label">Course</span><span class="caption">&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+					<a class="link trigger2" href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#"><span class="label">Challenge</span><span class="caption">&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+					<a class="link trigger2" href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#"><span class="label">Vol. 0-4</span><span class="caption">&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+					<a class="link trigger2" href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#"><span class="label">Vol. 5-6</span><span class="caption">&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+					<a class="link trigger2" href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#"><span class="label">Vol. 10, 15, 30</span><span class="caption">&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+					<a class="link trigger2" href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#"><span class="label">Vol. 11-14, 16</span><span class="caption">&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+					<a class="link trigger2" href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033#"><span class="label">Vol. 20-29, 31</span><span class="caption">&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+				</div>
+				<div class="dat" id="treePank" style="display: none;">
+					<a href="http://judge.u-aizu.ac.jp/onlinejudge/ranking.jsp?criteria=0">Order by Solved</a>
+					<a href="http://judge.u-aizu.ac.jp/onlinejudge/ranking.jsp?criteria=1">Order by Rating</a>
+					<a href="https://onlinejudge.u-aizu.ac.jp/#/ranking/leaderboards">Leaderboards</a>
+					<!--<a href="ranking.jsp?criteria=2">Order by Diff</a>-->
+				</div>
+				<div class="dat" id="treeStatus" style="display: block;">
+					<!--<a href="status.jsp">Last 200 Sub.</a>-->
+					<!--<a href="status.jsp">Last 100 Sub.</a>-->
+					<a href="http://judge.u-aizu.ac.jp/onlinejudge/submission.jsp">Last 100 Sub.</a>
+					<!--<a href="#">User Detail</a>-->
+				</div>
+				<div class="dat" id="treeContest" style="display: none;">
+					<a href="https://onlinejudge.u-aizu.ac.jp/beta/arena.html#contest">Contest</a>
+					<a href="https://onlinejudge.u-aizu.ac.jp/beta/arena.html#virtual">Virtual</a>
+					<!--<a href="#">User Detail</a>-->
+				</div>
+				<div class="dat" id="treeCourse" style="display: none;">
+					<a href="https://onlinejudge.u-aizu.ac.jp/courses/list">All</a>
+					<a href="https://onlinejudge.u-aizu.ac.jp/courses/list">Lesson</a>
+					<a href="https://onlinejudge.u-aizu.ac.jp/courses/list">Library</a>
+				</div>
+			</div>
+			<div id="subtree" style="display: none;">
+			  <div class="dat" data-target="0">
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=ITP1">Introduction to Programming I</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=ALDS1">Introduction to Algorithms and Data Structures</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=ITP2">Introduction to Programming II</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=DSL">Library of Data Sets and Queries</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=GRL">Library of Graph Algorithms</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=CGL">Library of Computational Geometry</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=DPL">Library of Discrete Optimization Problems</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?course=NTL">Library of Number Theory</a>
+			  </div>
+			  <div class="dat" data-target="1">
+			    <!--<a href="finder.jsp?source=JOI/Trial">Japanese Olympiad in Informatics: Trial</a>-->
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=JOI/Prelim">Japanese Olympiad in Informatics: Prelim</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=JOI/Final">Japanese Olympiad in Informatics: Final</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=PCK/Prelim">All-Japan High School Programming Contest: Prelim</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=PCK/Final">All-Japan High School Programming Contest: Final</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=ICPC/Prelim">ACM-ICPC Japan Preliminary Contest</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=ICPC/Regional">ACM-ICPC Asia Regional</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=JAG/Prelim">ACM-ICPC JAG Programming Contests: Prelim</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=JAG/Regional">ACM-ICPC JAG Programming Contests: Regional</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=JAG/Summer">ACM-ICPC JAG Programming Contests: Summer</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=JAG/Winter">ACM-ICPC JAG Programming Contests: Winter</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=JAG/Spring">ACM-ICPC JAG Programming Contests: Spring</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=VPC">Voluntary Programming Contest</a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?source=UOA">University of Aizu Programming Contest</a>
+			    <!--
+			    <a href="finder.jsp?source=VPC/RUPC">VPC/RUPC</a>
+			    <a href="finder.jsp?source=VPC/HUPC">VPC/HUPC</a>
+			    <a href="finder.jsp?source=VPC/KUPC">VPC/KUPC</a>
+			    <a href="finder.jsp?source=VPC/UTPC">VPC/UTPC</a>
+			    <a href="finder.jsp?source=VPC/OUPC">VPC/OUPC</a>
+			    <a href="finder.jsp?source=VPC/UECPC">VPC/UECPC</a>
+			    <a href="finder.jsp?source=UOA/UAPC">UOA/UAPC</a>
+			    <a href="finder.jsp?source=UOA/PCKWU">UOA/PCKWU</a>
+			    -->
+			  </div>
+			  <div class="dat" data-target="2">
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=0"><span class="label">Volume 0: </span><span class="caption">All-Japan High School Programming Contest.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=1"><span class="label">Volume 1: </span><span class="caption">All-Japan High School Programming Contest.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=2"><span class="label">Volume 2: </span><span class="caption">All-Japan High School Programming Contest.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=3"><span class="label">Volume 3: </span><span class="caption">All-Japan High School Programming Contest.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=4"><span class="label">Volume 4: </span><span class="caption">All-Japan High School Programming Contest.</span></a>
+			  </div>
+			  <div class="dat" data-target="3">
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=5"><span class="label">Volume 5: </span><span class="caption">Japanese Olympiad in Informatics.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=6"><span class="label">Volume 6: </span><span class="caption">Japanese Olympiad in Informatics.</span></a>
+			  </div>
+			  <div class="dat" data-target="4">
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=10"><span class="label">Volume 10: </span><span class="caption"> &nbsp; University of Aizu Programming Contest.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=15"><span class="label">Volume 15: </span><span class="caption"> &nbsp; University of Aizu Programming Contest.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=30"><span class="label">Volume 30: </span><span class="caption"> &nbsp; University of Aizu Programming Contest.</span></a>
+			  </div>
+			  <div class="dat" data-target="5">
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=11"><span class="label">Volume 11: </span><span class="caption"> &nbsp; ACM-ICPC Japan Domestic Contest.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=12"><span class="label">Volume 12: </span><span class="caption"> &nbsp; ACM-ICPC Asia Regional in Japan.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=13"><span class="label">Volume 13: </span><span class="caption"> &nbsp; ACM-ICPC Asia Regional in Japan.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=14"><span class="label">Volume 14: </span><span class="caption"> &nbsp; ACM-ICPC Asia Regional in Japan.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=16"><span class="label">Volume 16: </span><span class="caption"> &nbsp; ACM-ICPC Japan Domestic Contest.</span></a>
+			  </div>
+			  <div class="dat" data-target="6">
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=20"><span class="label">Volume 20: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=21"><span class="label">Volume 21: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=22"><span class="label">Volume 22: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=23"><span class="label">Volume 23: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=24"><span class="label">Volume 24: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=25"><span class="label">Volume 25: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=26"><span class="label">Volume 26: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=27"><span class="label">Volume 27: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=28"><span class="label">Volume 28: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=29"><span class="label">Volume 29: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			    <a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=31"><span class="label">Volume 31: </span><span class="caption"> &nbsp; ACM-ICPC JAG, Programming Contests.</span></a>
+			  </div>
+
+			</div>
+
+			<div id="user">
+			  <a href="http://judge.u-aizu.ac.jp/onlinejudge/signin.jsp" class="signup" id="login_new"><span class="line">Login</span></a>
+			  <a href="http://judge.u-aizu.ac.jp/onlinejudge/signout.jsp" class="signup" id="logout_new" style="display: none;"><span class="line">Logout</span></a>
+
+			  <a href="javascript:void(0);" class="signup" id="register"><span class="line">Register/Setting</span></a>
+			  <div id="registerBox" class="userBox" style="display: none;">     
+			    <form id="registerForm" class="userForm" method="post" action="http://judge.u-aizu.ac.jp/onlinejudge/index.jsp">
+			      <fieldset id="body">
+			      <font _mstmutation="1"><a href="http://judge.u-aizu.ac.jp/onlinejudge/register.jsp" _mstmutation="1">Register/Setting</a>
+				
+			      <a href="http://judge.u-aizu.ac.jp/onlinejudge/update.jsp" _mstmutation="1">Update Info.</a>
+				
+			      <a href="http://judge.u-aizu.ac.jp/onlinejudge/psupdate.jsp" _mstmutation="1">Update Pass.</a></font><span class="spacer1">&nbsp;</span><span class="spacer1">&nbsp;</span>
+			      </fieldset>
+			    </form>
+			  </div>
+			</div>
+
+
+			<div id="user_old" style="display:none">
+			  
+			  <a href="javascript:void(0);" class="signup" id="login"><span class="line">Login</span></a>
+			  <div id="loginBox" class="userBox" style="display: none;">     
+			    <form id="loginForm" class="userForm" method="post" action="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033">
+			      <fieldset id="body">
+				<fieldset>
+				  <label for="loginUserID">User ID</label>
+				  <input type="text" name="loginUserID" id="loginUserID">
+				</fieldset>
+				<fieldset>
+				  <label for="loginPassword">Password</label>
+				  <input type="password" name="loginPassword" id="loginPassword">
+				</fieldset>
+				<input type="submit" name="submit" id="logininput" value="Sign in" _mstvalue="76999">
+				
+				<!--<label for="checkbox"><input type="checkbox" id="checkbox" />Remember me</label>-->
+			      </fieldset>
+			      <!--<span><a href="#">Forgot your password?</a></span>-->
+			    </form>
+			  </div>
+			  <a href="javascript:void(0);" class="signup" id="register"><span class="line">Register/Setting</span></a>
+			  <div id="registerBox" class="userBox">     
+			    <form id="registerForm" class="userForm" method="post" action="http://judge.u-aizu.ac.jp/onlinejudge/index.jsp">
+			      <fieldset id="body">
+			      <font _mstmutation="1"><a href="http://judge.u-aizu.ac.jp/onlinejudge/register.jsp" _mstmutation="1">Register/Setting</a>
+				
+			      <a href="http://judge.u-aizu.ac.jp/onlinejudge/update.jsp" _mstmutation="1">Update Info.</a>
+				
+			      <a href="http://judge.u-aizu.ac.jp/onlinejudge/psupdate.jsp" _mstmutation="1">Update Pass.</a></font><span class="spacer1">&nbsp;</span><span class="spacer1">&nbsp;</span>
+			      </fieldset>
+			    </form>
+			  </div>
+		
+
+			  
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<div class="wrapper">
+			<div id="lang">
+				<font _mstmutation="1"><a href="http://judge.u-aizu.ac.jp/onlinejudge/index.jsp?lang=ja" id="langJp" _mstmutation="1">Japanese</a>
+				<span class="padding6 small0" _mstmutation="1">&nbsp;</span>
+				<a href="http://judge.u-aizu.ac.jp/onlinejudge/index.jsp?lang=en" id="langEn" class="active" _mstmutation="1">English</a></font>
+			</div>
+			<div id="pwd">
+                           <span id="mystatus"></span>
+			  
+				<a href="http://judge.u-aizu.ac.jp/onlinejudge/introduction.jsp" id="help">For beginners&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				<font _mstmutation="1"><a href="http://judge.u-aizu.ac.jp/onlinejudge/index.jsp" class="now" _mstmutation="1">HOME</a><span class="padding6" _mstmutation="1">-</span>
+			<a href="http://judge.u-aizu.ac.jp/onlinejudge/finder.jsp?volumeNo=0" class="now" _mstmutation="1">Volume0</a><span class="padding6" _mstmutation="1">-</span>0033</font></div>
+		</div>
+	</div>
+
+
+
+
+<div id="contents">
+  <div id="pageinfo">
+    <div class="wrapper">
+      <div class="subinfo">
+	<a href="https://onlinejudge.u-aizu.ac.jp/services/tagging.html#0033" id="problemTag" class="icon" title="Tag">Tag</a>
+	<a href="https://onlinejudge.u-aizu.ac.jp/services/bbs/#/threadboard/0033" target="_blank" id="problemDiscussion" class="icon" title="Discussion">Discussion</a>
+	<a href="http://judge.u-aizu.ac.jp/onlinejudge/solution.jsp?pid=0033" id="problemSolution" class="icon" title="Solution">Solution</a>
+	<a href="http://judge.u-aizu.ac.jp/onlinejudge/problem_statistics.jsp?id=0033" id="problemStatistics" class="icon" title="Statistics">Statistics</a>
+	<a href="http://judge.u-aizu.ac.jp/onlinejudge/submission.jsp#submit/0033" id="problemSubmit" class="icon" title="Submit">Submit</a>
+	
+	<div class="spacer1">&nbsp;</div>
+	
+        <div class="dat">
+	  
+	  
+          
+        </div>
+	
+      </div>
+      <h1 class="title" id="problemTitle">Ball</h1>
+      <font _mstmutation="1"><span class="text-red3" _mstmutation="1">Time Limit : <span id="problemTimeLimit">1</span> sec, Memory Limit : <span id="problemMemoryLimit">131072</span> KB</span>
+
+<br _mstmutation="1">
+   
+      <span class="text" _mstmutation="1"><a href="http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=0033&amp;lang=ja">Japanese</a></span></font>
+   
+
+		</div>
+	</div>
+	<div id="page">
+	  <div class="wrapper">
+	    <div class="description">
+	        <!---->
+                
+
+		      <script type="text/x-mathjax-config;executed=true">
+			MathJax.Hub.Config({ tex2jax: { inlineMath: [["$","$"], ["\\(","\\)"]], skipTags: ["script","noscript","style","textarea","code"], processEscapes: true }});
+		      </script>
+		      <script type="text/javascript" async="" src="./description_files/MathJax.js.下载"></script>
+		      
+        
+	        
+
+<h1>玉</h1>
+
+<center>
+<img src="./description_files/ball.gif">
+</center>
+<br>
+
+<p>
+図のように二股に分かれている容器があります。1 から 10 までの番号が付けられた10 個の玉を容器の開口部 A から落とし、左の筒 B か右の筒 C に玉を入れます。板 D は支点 E を中心に左右に回転できるので、板 D を動かすことで筒 B と筒 C のどちらに入れるか決めることができます。
+</p>
+
+<p>
+開口部 A から落とす玉の並びを与えます。それらを順番に筒 B 又は筒 Cに入れていきます。このとき、筒 B と筒 C のおのおのが両方とも番号の小さい玉の上に大きい玉を並べられる場合は YES、並べられない場合は NO と出力するプログラムを作成してください。ただし、容器の中で玉の順序を入れ替えることはできないものとします。また、続けて同じ筒に入れることができるものとし、筒 B, C ともに 10 個の玉がすべて入るだけの余裕があるものとします。
+</p>
+
+
+<h2>Input</h2>
+
+<p><font _mstmutation="1">
+複数のデータセットが与えられます。１行目にデータセット数  が与えられます。つづいて、 行のデータセットが与えられます。各データセットに 10 個の番号が左から順番に空白区切りで与えられます。
+</font><var><span style="font-family: &#39;Times New Roman&#39;, Times, Georgia, serif;font-style:normal;color:#000;letter-spacing:0.15ex;font-size:110%;"><i>N</i></span></var><var><span style="font-family: &#39;Times New Roman&#39;, Times, Georgia, serif;font-style:normal;color:#000;letter-spacing:0.15ex;font-size:110%;"><i>N</i></span></var></p>
+
+<h2>Output</h2>
+
+<p>
+各データセットに対して、<span>YES</span> または <span>NO</span> を１行に出力して下さい。
+</p>
+
+<h2>Sample Input</h2>
+
+<pre>2
+3 1 4 2 5 6 7 8 9 10
+10 9 8 7 6 5 4 3 2 1
+</pre>
+
+<h2>Output for the Sample Input</h2>
+
+<pre>YES
+NO
+</pre>
+
+
+
+                
+                <hr>
+		  
+		  <div class="dat" style="font-size:10pt"><font _mstmutation="1">
+		    Source: <a href="https://onlinejudge.u-aizu.ac.jp/problems/0033" _mstmutation="1">https://onlinejudge.u-aizu.ac.jp/problems/0033</a></font>
+		  </div>
+                  
+		<div class="spacer60">&nbsp;</div>
+	    </div>
+	  </div>
+	</div>
+<script type="text/javascript">
+function callProblemInfo(){
+    var pid = '0033';
+    $.ajax({
+        url: 'https://judgeapi.u-aizu.ac.jp/problems/ids/' + pid,
+        type: 'GET',
+        dataType: 'json',
+        scriptCharset: 'utf-8',
+        xhrFields: {withCredentials: true },
+        success: showProblemInfo
+    });
+}
+
+function showProblemInfo(data){
+    var info = data.problems[0];
+    $('#problemTitle').html(info.name);
+    $('#problemTimeLimit').html(info.problemTimeLimit);
+    $('#problemMemoryLimit').html(info.problemMemoryLimit);
+}
+
+
+$(document).ready(function(){
+  callProblemInfo();
+ 
+ $('#pwd').append('<a href="finder.jsp?volumeNo=0" class="now">Volume0</a><span class="padding6">-</span>0033</a>');
+ 
+
+
+});
+</script>
+
+</div>
+
+
+</body></html>
