@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+int dfs(int* a, int* b, int* c, int step);
+
 int a[10], b[6], c[6], m;
 
 int main() 
