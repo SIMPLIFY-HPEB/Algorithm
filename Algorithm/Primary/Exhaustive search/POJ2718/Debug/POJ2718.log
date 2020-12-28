@@ -1,0 +1,5 @@
+﻿  solution.c
+D:\Project\Algorithm\Primary\Exhaustive search\POJ2718\solution.c(5,32): warning C4081: 应输入“newline”；找到“;”
+D:\Project\Algorithm\Primary\Exhaustive search\POJ2718\solution.c(16,12): warning C4101: “i”: 未引用的局部变量
+D:\Project\Algorithm\Primary\Exhaustive search\POJ2718\solution.c(114,42): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  POJ2718.vcxproj -> D:\Project\Algorithm\Primary\Exhaustive search\POJ2718\Debug\POJ2718.exe

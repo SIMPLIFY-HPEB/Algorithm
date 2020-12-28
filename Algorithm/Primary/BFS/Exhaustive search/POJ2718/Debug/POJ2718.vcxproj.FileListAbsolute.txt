@@ -1,2 +1,0 @@
-D:\Project\Algorithm\Primary\Exhaustive search\POJ2718\Debug\POJ2718.exe
-D:\Project\Algorithm\Primary\Exhaustive search\POJ2718\Debug\POJ2718.pdb

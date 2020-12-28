@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="solve.c">
+    <ClCompile Include="solution.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

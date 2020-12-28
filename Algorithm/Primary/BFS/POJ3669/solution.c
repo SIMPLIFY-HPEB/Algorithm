@@ -1,6 +1,7 @@
 #include<stdio.h>
 
 int point[302][302];
+
 struct {
 	int x;
 	int y; 
