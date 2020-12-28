@@ -1,4 +1,5 @@
 #include<stdio.h>
+#pragma warning(disable : 4996)
 
 int point[302][302];
 
@@ -17,9 +18,9 @@ int bfs();
 int main()
 {
 	int m, i, n, x, y, t;
-	scanf_s("%d", &m);
+	scanf("%d", &m);
 	for (i = 0; i < m; i++) {
-		scanf_s("%d %d %d", &x, &y, &t);
+		scanf("%d %d %d", &x, &y, &t);
 		if (point[y][x] == 0 || point[y][x] > t)
 			point[y][x] = t;
 		for (n = 0; n < 4; n++)

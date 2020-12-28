@@ -1,4 +1,3 @@
-/*Curling 2.0*/
 #include<stdio.h>
 
 int dfs(int x, int y, int step);

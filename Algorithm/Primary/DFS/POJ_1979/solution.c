@@ -1,10 +1,10 @@
-/*Red and Black*/
 #include<stdio.h>
 
 int dfs(int x, int y);
 
 int w, h, s_x, s_y, step;
 char room[20][20 + 1];
+
 
 int main()
 {
@@ -17,7 +17,7 @@ int main()
 					s_x = x, s_y = y;
 			}
 		}
-		printf("%d", dfs(s_x, s_y, step));
+		printf("%d", dfs(s_x, s_y));
 	}
 }
 

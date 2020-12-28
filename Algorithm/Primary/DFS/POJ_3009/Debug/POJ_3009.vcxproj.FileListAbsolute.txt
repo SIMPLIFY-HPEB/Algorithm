@@ -2,3 +2,5 @@ D:\Projects\C Programs\Primary\POJ_3009\Debug\POJ_3009.exe
 D:\Projects\C Programs\Primary\POJ_3009\Debug\POJ_3009.pdb
 D:\Projects\C Programs\Algorithm\Primary\POJ_3009\Debug\POJ_3009.exe
 D:\Projects\C Programs\Algorithm\Primary\POJ_3009\Debug\POJ_3009.pdb
+D:\Project\Algorithm\Algorithm\Primary\DFS\POJ_3009\Debug\POJ_3009.exe
+D:\Project\Algorithm\Algorithm\Primary\DFS\POJ_3009\Debug\POJ_3009.pdb
